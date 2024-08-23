@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "24107084942",
+    "project_id": "travelinsync-9d11a",
+    "storage_bucket": "travelinsync-9d11a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24107084942:android:e39f62a0cad68ec2a0eddf",
+        "android_client_info": {
+          "package_name": "com.travelinsync.user"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo44KxFHvUPKPYiIBRAfUn6CJZEsHY6IU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

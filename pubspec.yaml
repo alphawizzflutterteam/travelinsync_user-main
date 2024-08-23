@@ -1,0 +1,95 @@
+name: taxi_schedule_user
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.4+5
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  http: ^1.1.0
+  #firebase
+  flutter_local_notifications: ^11.0.1
+  firebase_core: ^2.1.0
+  firebase_messaging: ^14.7.8
+  firebase_auth: ^4.7.2
+
+  cupertino_icons: ^1.0.3
+
+  shared_preferences: ^2.0.5
+  #animation_wrappers: 0.0.2
+  location: ^5.0.3
+  # geocoder: ^0.2.1
+  geocoding: ^2.2.0
+  google_maps_place_picker_mb: ^3.1.2
+  google_maps_flutter: ^2.0.6
+  flutter_polyline_points: ^2.0.0
+
+
+  image_picker_gallery_camera: ^0.2.2
+  connectivity_plus: ^5.0.2
+  path_provider: ^2.0.2
+  permission_handler: ^10.2.0
+
+
+  url_launcher: ^6.0.17
+  flutter_datetime_picker_plus: ^2.0.1
+  # flutter_datetime_picker: ^1.5.1
+
+  razorpay_flutter: ^1.2.9
+  # screen: ^0.0.5
+  wakelock_plus: ^1.1.4
+  image_cropper: ^1.4.1
+  device_info_plus: ^9.1.2
+  flutter_html: 3.0.0-beta.2
+  intl:
+  #firebase_dynamic_links: ^5.1.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+#  flutter_launcher_icons: "^0.9.0"
+dependency_overrides:
+  file: ^6.1.4
+  geolocator: ^9.0.2
+#flutter_icons:
+#  android: "ic_launcher"
+#  ios: true
+#  image_path: "assets/app_icons.png"
+
+flutter_launcher_name:
+  name: "Sahayatri"
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - lib/language/
+  fonts:
+    - family: Andina
+      fonts:
+        - asset: fonts/andina.ttf
+
+    - family: Regular
+      fonts:
+        - asset: fonts/googlesansregular.ttf
+
+    - family: Medium
+      fonts:
+        - asset: fonts/googlesansmedium.ttf
+
+    - family: Semibold
+      fonts:
+        - asset: fonts/googlesansmedium.ttf
+
+    - family: Bold
+      fonts:
+        - asset: fonts/googlesansebold.ttf
