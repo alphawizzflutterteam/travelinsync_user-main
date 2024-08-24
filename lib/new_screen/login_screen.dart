@@ -1,7 +1,4 @@
 import 'dart:async';
-
-
-
 import 'package:taxi_schedule_user/generated/assets.dart';
 import 'package:taxi_schedule_user/new_utils/ApiBaseHelper.dart';
 import 'package:taxi_schedule_user/new_utils/Demo_Localization.dart';
@@ -9,15 +6,9 @@ import 'package:taxi_schedule_user/new_utils/colors.dart';
 import 'package:taxi_schedule_user/new_utils/common_ui.dart';
 import 'package:taxi_schedule_user/new_utils/constant.dart';
 import 'package:taxi_schedule_user/new_utils/ui.dart';
-
-
-
 import 'package:device_info_plus/device_info_plus.dart';
-
 import 'package:flutter/material.dart';
-
 import 'package:taxi_schedule_user/new_utils/entry_field.dart';
-
 import 'package:flutter/rendering.dart';
 
 

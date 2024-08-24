@@ -1,8 +1,6 @@
 import 'dart:math';
-
-
 import 'package:connectivity_plus/connectivity_plus.dart';
-import 'package:device_info_plus/device_info_plus.dart';
+// import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -119,11 +117,11 @@ class Common{
     }
   }
   static logoutApi()async{
-    DeviceInfoPlugin deviceInfo = DeviceInfoPlugin();
-    AndroidDeviceInfo androidInfo = await deviceInfo.androidInfo;
+    // DeviceInfoPlugin deviceInfo = DeviceInfoPlugin();
+    // AndroidDeviceInfo androidInfo = await deviceInfo.androidInfo;
     Map data = {
       "user_id":Constants.curUserId,
-      "device_id":androidInfo.id.toString(),
+      // "device_id":androidInfo.id.toString(),
     };
     ApiBaseHelper().postAPICall(Uri.parse(baseUrl + "logout_user"), data).then((value){});
   }
